@@ -17,4 +17,4 @@ for message in inbox.Items:
         message.UnRead = False
         updtime = '%.10s' % time
         print(updtime)
-        attachment.SaveAsFile('S:\\Shared-Financial-Data-Governance\\Ryan\\Requester Query' + '\\' + updtime + ' ' + str(attachment)) 
+        attachment.SaveAsFile(filepath + '\\' + updtime + ' ' + str(attachment)) 
