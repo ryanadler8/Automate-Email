@@ -1,5 +1,5 @@
 # Automate Email
-Script to iterate through Outlook Inbox and save attachments. Looks through a folder for unread emails and if the email is unread it downloads and saves the attachment. I created a rule in outlook that would send the certain email to the folder. Using the Task for Scheduler I have this script run everyday at 10:20 AM.
+Script to iterate through Outlook Inbox and save attachments. Looks through a folder for unread emails and if the email is unread, it downloads and saves the attachment. I created a rule in outlook that would send the certain email to the folder. Using the Task Scheduler I have this script run everyday at 10:20 AM.
 
 
 ## Setup - Libraries
