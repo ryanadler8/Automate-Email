@@ -12,8 +12,7 @@ for message in inbox.Items:
         print(message.Subject + '--------------Email Subject') 
         attachment = message.Attachments(1)
         print(attachment)
-        email = inbox.Items
-        #message = email.GetNext()
+       
         time = message.ReceivedTime
         message.UnRead = False
         updtime = '%.10s' % time
