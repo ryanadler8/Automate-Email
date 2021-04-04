@@ -7,6 +7,7 @@ Script to iterate through Outlook Inbox and save attachments. Looks through a fo
   - **Time** (https://docs.python.org/3/library/time.html)
   
 ## Explanation of Code
+(DownloadAttachmentFromFolder.py)
 Import libraries
 
 ![image](https://user-images.githubusercontent.com/55520621/105937919-7ef4e580-6024-11eb-8e69-630a28855267.png)
